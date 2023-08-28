@@ -33,10 +33,10 @@ for i in range(len(data)):
 
 # print(max_elf)
 # Print the value behind elf #number ? from the elves dictionary
-print(elves[max_elf[0]])
+print(f"Part 1 Answer: {elves[max_elf[0]]}")
 
 # Part 2
 # Use list slicing on a sorted dict to grab the top 3 results in descending order
 top_three = sorted(elves.items(), key=lambda x: -x[1])[:3]
 # Calculate the sum of the calories for the top three elves
-print(sum([item[1] for item in top_three]))
+print(f"Part 2 Answer: {sum([item[1] for item in top_three])}")
