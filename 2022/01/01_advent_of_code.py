@@ -1,6 +1,6 @@
 # Part 1
 # Read the input from a .txt file and save to a variable for later use
-with open("01_input", "r") as f:
+with open("01_input.txt", "r") as f:
     data = f.readlines()
 
 # Dict "elves" will contain the elf# as a key, and the total calories carried as a value
