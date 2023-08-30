@@ -38,7 +38,7 @@ winning_shape = {
 win_or_loss = {True: "win", False: "loss"}
 
 # Read the input and save to a variable for later use
-with open("02_input", "r") as f:
+with open("02_input.txt", "r") as f:
     data = f.readlines()
 
 # Iterate through every round
@@ -123,7 +123,7 @@ losing_shape = {
 win_loss_draw = {"Z": "win", "X": "loss", "Y": "draw"}
 
 # Read the input and save to a variable for later use
-with open("02_input", "r") as f:
+with open("02_input.txt", "r") as f:
     data = f.readlines()
 
 # Iterate through every round
